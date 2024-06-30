@@ -93,7 +93,7 @@ MAPE(pred_hwe_model_add_add,Test.Sales)
 hwe_model_mul_add=ExponentialSmoothing(Train["Sales"],seasonal='mul',trend="add",seasonal_periods=4).fit()
 pred_hwe_model_mul_add=hue_model_mul_add.predict(strat=Test.index[0],end=Test.index[-1])
 
-MAPE(pred_hwe_model_mil_add,Test.Sales)
+MAPE(pred_hwe_model_mul_add,Test.Sales)
 
 
 
