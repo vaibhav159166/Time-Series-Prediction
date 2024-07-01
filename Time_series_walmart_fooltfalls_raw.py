@@ -4,9 +4,6 @@ Created on Mon Mar  4 15:11:33 2024
 @author: Vaibhav Bhorkade
 """
 
-#  Error 
-
-
 import pandas as pd
 Walmart=pd.read_csv("Walmart Footfalls Raw.csv")
 
